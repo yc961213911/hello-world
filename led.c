@@ -28,5 +28,9 @@ void LED_Init(void)
  GPIO_Init(GPIOB, &GPIO_InitStructure);					 //根据设定参数初始化GPIOB.5
  GPIO_ResetBits(GPIOB,GPIO_Pin_3 | GPIO_Pin_4);						 //PB.5 输出高
 
+GPIO_SetBits(GPIOB,GPIO_Pin_3 | GPIO_Pin_4);						 //PB.5 输出高
+
+
+
 }
  
